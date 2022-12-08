@@ -11,7 +11,7 @@ int main() {
     char a;
     char y;
     cin >> a;
-    if (carattere(a)){
+    if (carattere(a)==true){
         y=conversione(a);
         cout<< y<< endl;
     }else{
