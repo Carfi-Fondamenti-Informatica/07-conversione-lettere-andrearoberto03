@@ -1,5 +1,23 @@
 #include <iostream>
+#include "libreriaaa.h"
 
-int main(){
-  return 0;
+bool carattere(char x);
+
+char conversione(char x);
+
+using namespace std;
+
+int main() {
+    char a;
+    char y;
+    cin >> a;
+    if (carattere(a)){
+        y=conversione(a);
+        cout<< y<< endl;
+    }else{
+        cout<<"errore"<<endl;
+    }
+    return 0;
 }
+
+
