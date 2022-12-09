@@ -1,10 +1,10 @@
-#include "libreriaaa.h"
+#include "lib.h"
 bool carattere(int x) {
     if (x>=65 && x<=90||x>=97 && x<=122) {
         return true;
-    } else 
+    } else {
         return false;
-    
+    }  
 }
 
 char conversione(char x){
