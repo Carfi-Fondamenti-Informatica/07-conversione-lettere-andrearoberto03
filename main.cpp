@@ -1,10 +1,6 @@
 #include <iostream>
 #include "libreriaaa.h"
 
-bool carattere(char x);
-
-char conversione(char x);
-
 using namespace std;
 
 int main() {
