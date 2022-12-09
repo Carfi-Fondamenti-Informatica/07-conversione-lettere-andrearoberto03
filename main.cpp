@@ -1,6 +1,5 @@
 #include <iostream>
 #include "libreriaaa.h"
-
 using namespace std;
 
 int main() {
